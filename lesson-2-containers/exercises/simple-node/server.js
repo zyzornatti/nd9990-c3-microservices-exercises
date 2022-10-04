@@ -1,4 +1,4 @@
-const FAVORITE_NAME = process.env.NAME;
+const FAVORITE_INSTRUCTOR = process.env.NAME;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -7,7 +7,7 @@ function sleep(ms) {
 async function main() {
   while(true) {
     //console.log('Containers rule!');
-	console.log(FAVORITE_NAME+' rules!');
+	console.log(FAVORITE_INSTRUCTOR+' rules!');
     await sleep(5000);
   }
 }
